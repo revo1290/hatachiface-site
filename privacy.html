@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>プライバシーポリシー — ハタチ顔</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>プライバシーポリシー</h1>
+  <p class="sub">ハタチ顔（HatachiFace）</p>
+  <p class="muted">最終更新: 2026年6月10日</p>
+</header>
+<nav>
+  <a href="index.html">ホーム</a>
+  <a href="privacy.html">プライバシー</a>
+  <a href="terms.html">利用規約</a>
+  <a href="support.html">サポート</a>
+</nav>
+
+<p>「ハタチ顔」（以下「本アプリ」）は、顔写真から「20歳になった顔」をエンタメとして予想するアプリです。
+本ポリシーは、本アプリが扱う情報とその取り扱いについて説明します。本アプリは<strong>結果に科学的・医学的根拠がない遊び</strong>です。</p>
+
+<h2>1. 取得する情報</h2>
+<ul>
+  <li><strong>顔写真</strong>: ユーザーが選択した顔写真。「20歳予想」を生成するためにのみ使用します。</li>
+  <li><strong>端末・広告識別子</strong>: 広告（Google AdMob）の表示にあたり、AdMob が端末識別子等を取得する場合があります。</li>
+  <li><strong>アカウント情報</strong>: 本アプリは登録不要です。氏名・メールアドレス・連絡先等は取得しません。</li>
+</ul>
+
+<h2>2. 顔写真の取り扱い</h2>
+<table>
+  <tr><th>処理</th><th>場所</th><th>外部送信</th></tr>
+  <tr><td>写真選択時の顔検出</td><td>端末内（オンデバイス）</td><td>しない</td></tr>
+  <tr><td>「20歳予想」の生成</td><td>当社サーバー経由で Google の生成AI</td><td><strong>生成時に1回だけ</strong></td></tr>
+  <tr><td>生成結果の表示・保存</td><td>端末内</td><td>しない</td></tr>
+</table>
+<ul>
+  <li>生成ボタンを押した時に<strong>1回だけ</strong>、選択した顔写真を暗号化通信（HTTPS）で当社の処理サーバーへ送信します。</li>
+  <li>送信前に<strong>位置情報（GPS）等のメタデータを除去</strong>します。</li>
+  <li>当社サーバーは受信した画像を<strong>保存しません</strong>（処理後にメモリ上から破棄します）。</li>
+  <li>生成された予想顔は端末内に保持され、ユーザーが保存しない限り破棄されます。</li>
+</ul>
+
+<h2>3. Google（Gemini API）でのデータ取り扱い</h2>
+<p>生成処理は Google の Gemini API（<strong>有料版</strong>）を利用します。Google の定めるところによれば、有料版では:</p>
+<ul>
+  <li>Google は送信内容・生成結果を<strong>自社製品の改善やモデルの学習に使用しません</strong>。</li>
+  <li>Google は<strong>不正利用（禁止使用ポリシー違反）の検知・防止の目的に限り</strong>、一定期間ログを保持します。</li>
+  <li>有料版では<strong>人手によるレビューは行われません</strong>。</li>
+</ul>
+<p class="muted">出典: Google「Gemini API Additional Terms of Service」 —
+<a href="https://ai.google.dev/gemini-api/terms">ai.google.dev/gemini-api/terms</a></p>
+
+<h2>4. 広告について</h2>
+<ul>
+  <li>本アプリは Google AdMob のインタースティシャル広告を表示します。</li>
+  <li>広告は<strong>パーソナライズなし（NPA）</strong>で配信する設定です。</li>
+  <li>AdMob は広告配信・不正防止のために端末識別子・広告識別子等を取得することがあります（詳細は
+    <a href="https://policies.google.com/privacy">Google プライバシーポリシー</a>）。</li>
+  <li><strong>広告に顔写真を渡すことはありません。</strong></li>
+</ul>
+
+<h2>5. お子さまの写真について</h2>
+<ul>
+  <li>18歳以下のお子さまの写真は、<strong>ご本人または保護者の同意のうえ</strong>でご利用ください。</li>
+  <li>顔写真はエンタメ目的の生成にのみ使用し、当社サーバーに保存しません。</li>
+</ul>
+
+<h2>6. データの保存・削除</h2>
+<ul>
+  <li>当社は顔写真・生成結果を<strong>サーバーに保存しない</strong>ため、当社側に保持される個人データはありません。</li>
+  <li>Google 側の不正防止目的のログは Google のポリシーに従います。</li>
+  <li>端末内のデータはアプリの削除等で消去されます。</li>
+</ul>
+
+<h2>7. 第三者提供</h2>
+<p>生成処理のための Google（Gemini API）、広告配信のための Google AdMob を除き、個人を特定する情報を第三者へ提供しません。</p>
+
+<h2>8. お問い合わせ</h2>
+<p>ご質問は<a href="support.html">サポートページ</a>をご覧ください。
+<!-- TODO(公開前): 連絡先メールアドレスを記載 -->（お問い合わせ用メールアドレスは公開前に設定してください。）</p>
+
+<h2>9. 本ポリシーの変更</h2>
+<p>本ポリシーは必要に応じて改定します。重要な変更はアプリ内またはサポートページで告知します。</p>
+
+<footer class="muted">© 2026 ハタチ顔</footer>
+</div>
+</body>
+</html>
